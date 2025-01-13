@@ -37,7 +37,7 @@ class CoinSetting:
                f'Coin:                   {self.coin}\n' \
                f'Network Difficulty:     {round(self.network_difficulty, 2)}\n'\
                f'Network HashRate:       {to_hashrate(self.network_hash_rate)}\n'\
-               f'Block Reward:           {round(self.block_reward, 2)} {self.coin}\n'\
+               
                f'Block By Day:           {round(self.block_by_day, 2)}\n' \
                f'Pool HashRate:          {to_hashrate(self.pool_hash_rate)}\n' \
                f'Pool Hashrate Expected: {to_hashrate(self.pool_hash_rate_expected)}\n' \
